@@ -6,11 +6,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.util.Objects;
 
-@Entity(name = "user")
+@Entity(name = "\"user\"")
 public class User {
     @Id
     @Column
-    @GeneratedValue
+    //@GeneratedValue
     private long userId;
     @Column
     private String username;
